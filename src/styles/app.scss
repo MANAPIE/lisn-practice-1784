@@ -1,0 +1,16 @@
+@import './reset';
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css');
+
+body {
+  font-family: 'Pretendard', '돋움', Dotum, Verdana, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #000000;
+  background-color: #FFFFFF;
+  height: 100%;
+}
+
+a {
+  font: inherit;
+  color: inherit;
+}
