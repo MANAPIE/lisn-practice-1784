@@ -1,12 +1,13 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 import Blank from '@/components/Blank'
+import Index from '@/components/Index'
 
 const routes = [
   {
     path: '/',
     name: 'Index',
-    component: Blank,
+    component: Index,
     meta: {
       layout: 'empty'
     }
